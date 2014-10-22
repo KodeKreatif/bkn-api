@@ -33,7 +33,8 @@
     "panas": "0.0.10",
     "qs": "^0.6.6",
     "serializer": "0.0.3",
-    "thunkify": "^2.1.2"
+    "thunkify": "^2.1.2",
+    "request": "*"
   },
   "devDependencies": {
     "should": "~3.3.0",
