@@ -18,7 +18,6 @@ function BKN (options) {
 BKN.prototype.find = function(ctx, options, cb) {
   var bkn = new bknScrapper();
   var nip = ctx.params.nip;
-  
   if (!nip) {
     return cb(boom.badRequest ("Bad NIP"));
   }
@@ -28,6 +27,9 @@ BKN.prototype.find = function(ctx, options, cb) {
   }
 
   bkn.getData(nip, function(data) {
+    if (!data) {
+      return cb(null, null)
+    }
     var obj = {
       object: "bkn",
       data: data
