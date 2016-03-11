@@ -28,6 +28,9 @@ BKN.prototype.find = function(ctx, options, cb) {
   }
 
   bkn.getData(nip, function(data) {
+    if (!data) {
+      return cb(new Error('Data not found'), null)
+    }
     var obj = {
       object: "bkn",
       data: data
