@@ -31,7 +31,7 @@
     "mongoose-times": "^0.1.0",
     "nan-bcrypt": "^0.7.9",
     "panas": "0.0.10",
-    "qs": "^0.6.6",
+    "qs": "^6.9.0",
     "serializer": "0.0.3",
     "thunkify": "^2.1.2",
     "request": "*"
