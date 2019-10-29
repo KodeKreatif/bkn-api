@@ -17,7 +17,7 @@
     "bkn-scrapper": "0.0.2",
     "co-body": "0.0.1",
     "co-busboy": "^1.0.2",
-    "debug": "^1.0.1",
+    "debug": "^4.1.1",
     "deep-diff": "^0.1.7",
     "finished": "^1.2.1",
     "kasta": "0.0.1",
